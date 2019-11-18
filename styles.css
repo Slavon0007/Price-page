@@ -1,3 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+.price-table {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1000px;
+    background: #141B1C;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 129px;
+    width: 380px;
+    height: 770px;
+    margin-right: 15px;
+    padding: 30px 0 42px;
+    background: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    color: #FFFFFF;
+}
+
+.price-card__header {
+    text-align: center;
+}
+
+.price-card__title {
+    margin: 0;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.price-card__subtitle {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.price-card__price {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    margin-top: 35px;
+    padding: 18px 0 18px;
+    width: 100%;
+}
+
+.price-card__description {
+    width: 327px;
+    margin: 0;
+    margin-top: 39px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.price-card__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 155px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+}
+
+.color-price__green {
+    background: #5BB189;
+}
+
+.color-price__blue {
+    background: #3A6BA5;
+}
+
+.color-price__orange {
+    background: #EC632A;
+}
+
+.webshop {
+    margin-right: 0;
+}
+
+.list {
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 37px;
+    margin-top: 42px;
+    padding: 0;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 21px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.list__icon {
+    display: inline-block;
+    height: 13px;
+    width: 15px;
+}
+
+.color-btn__green {
+    background: #5BB189;
+}
+
+.color-btn__blue {
+    background: #3A6BA5;
+}
+
+.color-btn__orange {
+    background: #EC632A;
+}
+
+.style-color {
+    background: #2A343880;
+}
+
+.green {
+    margin-right: 21px;
+    display: inline-block;
+    height: 13px;
+    width: 15px;
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+
+.blue {
+    margin-right: 21px;
+    display: inline-block;
+    height: 13px;
+    width: 15px;
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+
+.orange {
+    margin-right: 21px;
+    display: inline-block;
+    height: 13px;
+    width: 15px;
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
+
+.popular {
+    position: relative;
+    overflow: hidden;
+}
+
+.popular::before {
+    content: "popular";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 147px;
+    right: -30px;
+    top: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+    color: #FFFFFF;
+    background: #DC3F45;
+}
 
 
 /*# sourceMappingURL=styles.css.map */
