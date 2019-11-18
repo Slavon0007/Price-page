@@ -14,9 +14,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 129px;
     width: 380px;
     height: 770px;
-    margin-top: 129px;
     margin-right: 15px;
     padding: 30px 0 42px;
     background: #334247;
@@ -64,6 +64,8 @@
         color: #FFFFFF;
         border-radius: 20px;
         border: none;
+        margin-top: 37px;
+        margin-bottom: 42px;
     }
 }
 
@@ -86,6 +88,7 @@
 .list {
     list-style-type: none;
     width: 100%;
+    margin-top: 42px;
     padding: 0;
     &__item {
         display: flex;
@@ -152,6 +155,9 @@
     &::before {
         content: 'popular';
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 25px;
         width: 147px;
         right: -30px;
