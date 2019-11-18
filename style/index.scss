@@ -53,19 +53,16 @@
         line-height: 18px;
         text-align: center;
     }
-    &__button {
+    &__btn {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 40px;
         width: 155px;
-        margin-top: 37px;
         font-size: 15px;
         color: #FFFFFF;
         border-radius: 20px;
         border: none;
-        margin-top: 37px;
-        margin-bottom: 42px;
     }
 }
 
@@ -88,6 +85,7 @@
 .list {
     list-style-type: none;
     width: 100%;
+    margin-bottom: 37px;
     margin-top: 42px;
     padding: 0;
     &__item {
@@ -106,7 +104,7 @@
     }
 }
 
-.color-button {
+.color-btn {
     &__green {
         background: #5BB189;
     }
@@ -123,7 +121,6 @@
 }
 
 .green {
-    margin-left: 21px;
     margin-right: 21px;
     display: inline-block;
     height: 13px;
@@ -132,7 +129,6 @@
 }
 
 .blue {
-    margin-left: 21px;
     margin-right: 21px;
     display: inline-block;
     height: 13px;
@@ -141,7 +137,6 @@
 }
 
 .orange {
-    margin-left: 21px;
     margin-right: 21px;
     display: inline-block;
     height: 13px;
